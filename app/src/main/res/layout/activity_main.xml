@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+
+            <EditText
+                android:id="@+id/ssk"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="60dp"
+                android:inputType="text"
+                android:gravity="center"
+                android:hint="输入需要搜索的视频"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ss"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/bt_shape2"
+                    android:text="搜索" />
+
+                <Button
+                    android:id="@+id/qk1"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/bt_shape2"
+                    android:text="清空" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/jxk"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="170dp"
+                android:inputType="text"
+                android:gravity="center"
+                android:hint="输入需要解析的链接"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/jx"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="230dp"
+                    android:background="@drawable/bt_shape2"
+                    android:text="解析" />
+
+                <Button
+                    android:id="@+id/qk2"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="230dp"
+                    android:background="@drawable/bt_shape2"
+                    android:text="清空" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <Button
+                    android:id="@+id/txsp"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="340dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/bt_shape2"
+                    android:text="腾讯视频" />
+
+                <Button
+                    android:id="@+id/aqy"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="400dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/bt_shape2"
+                    android:text="爱奇艺" />
+
+                <Button
+                    android:id="@+id/yk"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="460dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/bt_shape2"
+                    android:text="优酷" />
+
+                <Button
+                    android:id="@+id/tj"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="560dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/bt_shape2"
+                    android:text="片荒？点我看推荐" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+</LinearLayout>
