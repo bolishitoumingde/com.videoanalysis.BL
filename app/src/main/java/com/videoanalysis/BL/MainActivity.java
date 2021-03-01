@@ -8,6 +8,20 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+//下面
+import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.TranslateAnimation;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.VideoView;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private Button ss, qk1, jx, qk2, txsp, aqy, yk, tj;
